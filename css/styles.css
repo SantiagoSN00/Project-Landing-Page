@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/*
+#1F2937 BACKGROUND
+
+#F9FAF8 HERO TEXT
+
+#E5E7EB HERO SECONDARY
+
+#F9FAF8 HEADER LOGO
+
+#3882F6 BUTTON
+
+#1F2937
+
+#E5E7EB
+
+#1F2937
+
+font-family: Roboto,sans-serif;
+
+*/
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Roboto,sans-serif;
+}
+.top-wrapper{
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+.quote-wrapper{
+    background-color: #e5e7eb;
+    color: #1F2937;
+}
+.random-info{  
+ max-width: 70%;
+ margin:auto;
+
+}
+.sign-up-wrapper{
+    background-color: white;
+    color:white;
+    padding: 5%;
+}
+.sign-up{
+    padding: 5%;
+    max-width: 80%;
+    margin: auto;
+    background-color: #3882f6;
+}
+.quote{
+    max-width: 65%;
+    margin-left:25%;
+    margin-right: auto;
+    padding: 10% 0px;
+}
+.top-page{
+    
+    max-width: 80%;
+    margin:auto;
+}
+.top-page button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    width: 18%;
+    border: 2px solid white;
+border-radius: 10px;
+    height: min-content;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    
+}
+.container.header {
+    display:flex;
+    flex-direction: row;
+    padding: 6px;
+    column-gap: 10px;
+}
+.logo{
+    font-size: 24px;
+    margin-right: auto;
+    color:#e5e7eb;
+
+}
+.intro{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 6px;
+    padding: 10% 0px;
+}
+.placer-holder-image{
+    display: flex;
+    background-color:#e5e7eb;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+.intro > *{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.random-info{
+    text-align: center;
+    padding: 10% 0px;
+}
+.random-info-container{
+    display:flex;
+    gap:6px;
+    flex-direction: column;
+
+}
+.info-wrapper{
+    color: black;
+}
+
+.small-img-container{
+    justify-content: space-around;
+    display: flex;
+gap: 12px;
+flex-direction: row;
+}
+.small-img-container div{
+    flex:1;
+width: 15%;
+height: 100px;
+border-radius: 25px;
+  border: 3px solid red ;
+
+}
+.img-subtext-container{
+    display: flex;
+    flex-direction: row;
+    gap:12px
+}
+.img-subtext-container  div{
+    flex:1;
+    border: 2px solid black;
+}
+.quote :nth-child(2){
+    font-weight: bold;
+    text-align: right;
+}
+.sign-up{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sign-up :nth-child(1){
+    font-weight: 900;
+}
+.sign-up button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    width: 18%;
+    border: 2px solid white;
+border-radius: 10px;
+    height: min-content;
+}
+.sign-up-column{
+ 
+    flex-direction: column;
+    display: flex;
+    flex:1;
+}
+footer{
+    font-size: 18px;
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    padding: 5% 0px;
+
+}
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+.secondary-text{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.random-info-head{
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+.quote-text{
+    font-size: 36px;
+    font-family: light italic;
+    color:#1F2937
+}
